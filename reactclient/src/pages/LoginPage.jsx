@@ -54,7 +54,7 @@ const LoginPage = () => {
           <div className=" w-80 h-max text-center text-xs p-3">
             <SubHeading
               lable={"Enter Your credentials to acces your account   : )"}
-              to={"/signup"}
+              to={"/"}
               totext={"Dot't have an account ?"}
             />
           </div>

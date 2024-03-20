@@ -5,7 +5,10 @@ const SubHeading = ({ lable, to, totext }) => {
     <>
       <div className="text-normal px-4 pb-3 text-[#a02727]">
         <div className=" ">{lable}</div>
-        <div className="underline m-1 p-1 cursor-pointer">{totext}</div>
+
+        <Link className="underline m-1 p-1 cursor-pointer" to={to}>
+          {totext}
+        </Link>
       </div>
     </>
   );
